@@ -1,0 +1,216 @@
+@charset "utf-8";
+.headerShop {
+    height: 90px;
+    background-color: #0044AA;
+    font-weight: bold;
+    font-size: xx-large;
+    text-shadow: 1px 1px #000000;
+    text-decoration: none;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #0044AA;
+    padding-left: 6px;
+}
+
+body {
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    background-color: #B3FFFD;
+}
+
+.pLogoName2 {
+    color: #B3FFFD;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+.divLogin, .divCart {
+    float: right;
+    width: 100px;
+    text-align: center;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+}
+.divLogin a, .divCart a, .headerLogo a {
+    text-decoration: none;
+    color: #B3FFFD;
+}
+
+.divLogin a:hover, .divCart a:hover, .pLogoName a:hover, .headerLogo a:hover {
+    color: #D40000;
+    text-shadow: 1px 1px #B3FFFD;
+    cursor: pointer;
+    overflow-x: hidden;
+}
+
+.headerLogo {
+    float: left;
+    height: 80px;
+    width: 200px;
+}
+
+.divAd {
+    width: 400px;
+    height: 90px;
+    text-align: center;
+    color: #B3FFFD;
+    background-color: #096BFF;
+    margin-left: 200px;
+}
+
+.bottomShop {
+    text-align: center;
+    clear: both;
+    background-color: #0044AA;
+    color: #B3FFFD;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.bodyShop {
+    clear: both;
+    height: 100%;
+    min-height: 100%;
+}
+
+.bodyMenu {
+    float: left;
+    width: 200px;
+    background-color: #69D5D4;
+    height: 100%;
+    min-height: 100%;
+    border-bottom-right-radius: 10px;
+}
+
+.bodyMain {
+    min-height: 200px;
+    margin-bottom: 0px;
+}
+
+.pMenuCategory {
+    color: #0044AA;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+    font-size: large;
+}
+
+.linkCategoryAll {
+    color: #0044AA;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+.linkCategoryAll:hover {
+    color: #D40000;
+}
+
+.ulMenu {
+    color: #0044AA;
+    font-size: medium;
+    font-weight: normal;
+    list-style: square outside;
+    display: block;
+}
+
+.listCat {
+    color: #005DE8;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.listCat:hover {
+    color: #D40000;
+}
+
+.bodyList {
+    list-style: none;
+}
+
+.bodyHead {
+    color: #0044AA;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: left;
+    padding-left: 210px;
+}
+
+.pMenuAdmin {
+    color: #0044AA;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+    font-size: large;
+
+}
+
+.pMenuAdmin:hover {
+    color: #B3FFFD;
+    text-shadow: 1px 1px #D40000;
+}
+
+.divBodyList {
+    padding-left: 230px;
+}
+
+.rowProductName {
+    color: #005DE8;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    float: left;
+}
+
+.rowProduct {
+    margin-bottom: 10px;
+
+}
+
+.rowProductDetails {
+    color: #0044AA;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+.rowProductBtn {
+    padding-left: 2em;
+    color: #096BFF;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    min-height: 30px;
+}
+
+.rowProductName:hover {
+    color: #D40000
+}
+
+.tblCart tr td {
+    border: 1px dashed #0044AA;
+    text-align: center;
+    border-collapse: collapse;
+}
+.tblCart tr th {
+    border: 1px solid #0044AA;
+    border-collapse: collapse;
+}
